@@ -9,7 +9,14 @@ export default function NavBar() {
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
-            <div className="md:py-6"></div>
+            <div className="md:py-4 flex place-items-center">
+              <h1 className="md:text-4xl text-2xl text-white font-bold"> Web</h1>
+              <img
+                src="/logo.svg"
+                alt=""
+                className=" md:w-12 w-10 md:mx-4 mx-2 my-4 rounded-full text-gray-900"
+              />
+            </div>
 
             <div className="md:hidden">
               <button
@@ -60,7 +67,7 @@ export default function NavBar() {
                 <a href="/">Home</a>
               </li>
               <li className="text-gray-200 hover:text-blue-600">
-                <a href="/editor">Pricing</a>
+                <a href="">Pricing</a>
               </li>
               <li className="text-gray-200 hover:text-blue-600">
                 <a href="/">Products</a>
@@ -69,7 +76,7 @@ export default function NavBar() {
                 <a href="/">Features</a>
               </li>
               <li className="text-gray-200 hover:text-blue-600">
-                <a href="/">Blog</a>
+                <a href="/editor">Studio</a>
               </li>
               <li className="text-gray-200 hover:text-blue-600">
                 <a href="/">Live Demos and Templates</a>
