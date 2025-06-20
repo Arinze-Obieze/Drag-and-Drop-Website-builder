@@ -2,6 +2,9 @@
 
 A modern drag-and-drop website builder built with Next.js, React, GrapesJS, and Tailwind CSS. Web X Builder empowers users—especially non-programmers—to create, customize, and deploy professional websites quickly and easily.
 
+## Studio Interface
+https://web-x-nu.vercel.app/editor
+
 ## Functionalities
 
 - Visual drag-and-drop website building using GrapesJS
